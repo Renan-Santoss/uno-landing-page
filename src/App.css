@@ -1,0 +1,28 @@
+/* / Configurção Global */
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+
+body {
+  font-family: "Poppins", arial;
+  background-color: #17161E;
+  box-sizing: border-box;
+  height: 200vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* // Configurção Global */
