@@ -9,10 +9,10 @@ const Hero3 = () => {
     <section>
       <div className={styles.hero_container}>
         <div className={styles.txt}>
-          <h2>Benefícios de joga uno</h2>
+          <h2>Benefícios de jogar uno</h2>
           <p>
-            Saiba mais sobres os benefícios de joga uno com seus amigos e
-            família{" "}
+            Saiba mais sobres os benefícios de jogar uno com seus amigos e
+            família
           </p>
         </div>
         <div className={styles.hero_wrapper}>
@@ -27,7 +27,6 @@ const Hero3 = () => {
           <div className={styles.container}>
             <div className={styles.content}>
               <a href="#">
-                {" "}
                 <img src={Card2} alt="" />
               </a>
             </div>

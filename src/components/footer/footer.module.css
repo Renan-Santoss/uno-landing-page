@@ -1,0 +1,120 @@
+.footer {
+  margin: 0 auto;
+  margin-top: 100px;
+  border-top: 2px solid #7d7d7d;
+  max-width: 1280px;
+  height: 35vh;
+}
+
+.footer_wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.txtLogo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_content p {
+  color: #7d7d7d;
+  max-width: 48ch;
+  font-size: 17px;
+}
+
+.footerEmail {
+  margin-top: 80px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.footerEmail p {
+  color: #7d7d7d;
+  max-width: 40ch;
+  text-align: left;
+  font-size: 17px;
+}
+
+.footerInp {
+  margin-top: 10px;
+  width: 380px;
+  margin-right: 60px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #282828;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInp input {
+  margin-top: 10px;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-left: 5px;
+  font-size: 17px;
+  width: 300px;
+  color: #fff;
+  border: none;
+}
+
+.footerInp button {
+  background: #ed1c24;
+  padding: 0px 40px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  border: 2px solid #ff0000;
+}
+
+.footerInp a{
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+}
+
+.redeSociais{
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #7d7d7d;
+}
+
+
+.footerSociais{
+    display: flex;
+    gap: 10px;
+}
+
+.sociais{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    transition: .2s;
+    border-radius: 10px;
+}
+
+.sociais i{
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.sociais:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 8px #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+
+.txt p{
+    margin-top: 20px;
+    color: #7d7d7d;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+}
