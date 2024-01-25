@@ -118,3 +118,35 @@
     font-weight: 500;
     font-style: italic;
 }
+
+@media(max-width:600px){
+  .footer_wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_content p{
+    margin: 0 auto;
+    max-width: 47ch;
+  }
+  .footerEmail{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .footerContainer p{
+    margin: 0;
+  }
+  .footerSociais i{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .txt p{
+    display: flex;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+}

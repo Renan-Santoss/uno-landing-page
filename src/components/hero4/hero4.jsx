@@ -41,52 +41,56 @@ const Hero4 = () => {
             </div>
             <div className={styles.txt_content}>
               <h2>
-                UNO® Flip SIOC <br /> <span>R$99,99 + Frete Grátis</span>
+                UNO® Flip SIOC <br /><span>R$99 + Frete Grátis</span>
               </h2>
             </div>
             <div className={styles.txt_content}>
               <h2>
-                UNO® minimalista <br /> <span>R$19,90 Frete Grátis</span>
+                UNO® minimalista <br /> <span>R$19,90 + Frete Grátis</span>
               </h2>
             </div>
             <div className={styles.txt_content}>
               <h2>
-                UNO® minimalista <br /> <span>R$35,87 + Frete Grátis</span>
+                UNO® minimalista<br /><span>R$35,87 + Frete Grátis</span>
               </h2>
             </div>
           </div>
-          <div className={styles.p}>
-            <div className={styles.p_contagem}>
-              <p>
-                Acaba em <span>01:34:45s</span>
-              </p>
-              <button>
-                <a href="#">Comprar</a>
-              </button>
-            </div>
-            <div className={styles.p_contagem}>
-              <p>
-                Acaba em <span>01:34:45s</span>
-              </p>
-              <button>
-                <a href="#">Comprar</a>
-              </button>
-            </div>
-            <div className={styles.p_contagem}>
-              <p>
-                Acaba em <span>30:34:45s</span>
-              </p>
-              <button>
-                <a href="#">Comprar</a>
-              </button>
-            </div>
-            <div className={styles.p_contagem}>
-              <p>
-                Acaba em <span>30:34:45s</span>
-              </p>
-              <button>
-                <a href="#">Comprar</a>
-              </button>
+          <div className={styles.pContainer}>
+            <div className={styles.pContent}>
+              <div className={styles.p}>
+                <div className={styles.p_contagem}>
+                  <p>
+                    Acaba em <span>01:34:45s</span>
+                  </p>
+                  <button>
+                    <a href="#">Comprar</a>
+                  </button>
+                </div>
+                <div className={styles.p_contagem}>
+                  <p>
+                    Acaba em <span>01:34:45s</span>
+                  </p>
+                  <button>
+                    <a href="#">Comprar</a>
+                  </button>
+                </div>
+                <div className={styles.p_contagem}>
+                  <p>
+                    Acaba em <span>30:34:45s</span>
+                  </p>
+                  <button>
+                    <a href="#">Comprar</a>
+                  </button>
+                </div>
+                <div className={styles.p_contagem}>
+                  <p>
+                    Acaba em <span>30:34:45s</span>
+                  </p>
+                  <button>
+                    <a href="#">Comprar</a>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
           <div className={styles.hero_container}>
@@ -113,7 +117,7 @@ const Hero4 = () => {
             </div>
             <div className={styles.txt_content}>
               <h2>
-                UNO® Flip SIOC <br /> <span>R$99,99 + Frete Grátis</span>
+                UNO® Flip SIOC <br /> <span>R$99 + Frete Grátis</span>
               </h2>
             </div>
             <div className={styles.txt_content}>

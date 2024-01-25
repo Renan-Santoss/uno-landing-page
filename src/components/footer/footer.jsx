@@ -53,8 +53,10 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className={styles.txt}>
-            <p>© 2024 MATEL. Todos os direitos reservados.</p>
+          <div>
+            <div className={styles.txt}>
+              <p>© 2024 MATEL. Todos os direitos reservados.</p>
+            </div>
           </div>
         </div>
       </div>
