@@ -66,7 +66,7 @@ const Hero2 = () => {
                     Acaba em <span>01:34:45s</span>
                   </p>
                   <button>
-                    <a href="#">Comprar</a>
+                    <a href="/produtos">Comprar</a>
                   </button>
                 </div>
                 <div className={styles.p_contagem}>

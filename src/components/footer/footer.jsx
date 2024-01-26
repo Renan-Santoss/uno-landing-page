@@ -49,7 +49,6 @@ const Footer = () => {
             <div className={styles.sociais}>
               <a href="#">
                 <i className="fa-brands fa-twitter fa-2x"></i>
-                <a href="#"></a>
               </a>
             </div>
           </div>
