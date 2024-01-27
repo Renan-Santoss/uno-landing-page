@@ -81,5 +81,12 @@
     width: 40px;
     margin: 0 auto;
   }
+  .hero_wrapper::before{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 /* // HERO3 MOBILE 600px */

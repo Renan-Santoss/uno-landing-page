@@ -26,7 +26,7 @@ const Header = () => {
       <div className={styles.header_wrapper}>
         <div>
           <button className={styles.LogoButton}>
-            <img src={LogoMenu} alt="LogoMenu" />
+            <a href="/"><img src={LogoMenu} alt="LogoMenu" /></a>
           </button>
         </div>
         <button id={styles.buttonMobile} onClick={toggleMenu}>
